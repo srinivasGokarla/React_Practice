@@ -1,0 +1,96 @@
+.min_div {
+    width: 100%;
+    height: 100vh;
+    background: #6983aa;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+  }
+  .center_div {
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.);
+    border-radius: 15px
+  }
+  .to {
+    color: white;
+    background:transparent;
+    background-color: #8566aa;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.);
+  
+  }
+  .in {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border:none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width:60%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+  }
+  .btn {
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #8566aa;
+    color: white;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.);
+  
+  
+  }
+  .btn:hover {
+    background-color: rgb(10, 231, 39);
+  }
+   .ol {
+    margin-top: 30px;
+   }
+   .ol .li {
+    padding-left:0px;
+    text-align:left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color:#8566aa;
+    text-transform: capitalize;
+  
+   }
+   .todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+   }
+   .todo_style button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    margin: 0 15px 0 5px;
+    color: aliceblue;
+   
+  
+   }
+   .todo_style button:hover {
+    background-color: red;
+  
+   }
+   .todo_style button:hover .list_style {
+    background-color: red;
+    
+   }
