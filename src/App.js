@@ -16,7 +16,9 @@ import Handler from "./Components/Handler";
 import Input from "./Components/Input";
 import TwoInput from "./Components/TwoInput";
 import SimpleForm from "./Components/SimpleForm";
-import ToDo from "./Components/ToDo"
+import ToDo from "./Components/ToDo";
+import NpmClock from "./Components/NpmClock";
+
 
 
 
@@ -32,6 +34,8 @@ function App() {
      <TwoInput />
      < SimpleForm />
      < ToDo />
+     < NpmClock />
+     
      <Users />
      < Toggle />
      <Bindding />
