@@ -9,6 +9,7 @@ import Parentstate from "./Components/Parentstate"
 import {Parent, Child} from "./Components/Parent";
 import  Sumof from "./Components/Sumof";
 import Counter from "./Components/Counter";
+import Effect from "./Components/Effect"
 import Fetch from "./Components/Fetch";
 import Time from "./Components/Time";
 import DigitalTime from "./Components/DigitalTime";
@@ -18,6 +19,7 @@ import TwoInput from "./Components/TwoInput";
 import SimpleForm from "./Components/SimpleForm";
 import ToDo from "./Components/ToDo";
 import NpmClock from "./Components/NpmClock";
+import Acoordiaan from './Components/ReactQuestions/Acoordiaan';
 
 
 
@@ -35,6 +37,7 @@ function App() {
      < SimpleForm />
      < ToDo />
      < NpmClock />
+     < Acoordiaan />
      
      <Users />
      < Toggle />
@@ -46,6 +49,7 @@ function App() {
      </Parent>
      <Sumof />
      <Counter />
+     < Effect />
      <Fetch />
    
     
