@@ -20,11 +20,21 @@ import SimpleForm from "./Components/SimpleForm";
 import ToDo from "./Components/ToDo";
 import NpmClock from "./Components/NpmClock";
 import Acoordiaan from './Components/ReactQuestions/Acoordiaan';
+import Statewise from "./Components/Covid/Statewise"
+import ComaA from './Components/Axios/ComaA';
+import { Routes, Route,BrowserRouter} from "react-router-dom";
+import About from "./Components/Router/About";
+import Contact from "./Components/Router/Contact";
+import Error from "./Components/Router/Error"
+
 
 
 
 
 function App() {
+  const Name =() => {
+    return <h1>Hello, I am Name Page</h1>
+  }
   return (
     <div className="App">
      <Simple />
@@ -50,6 +60,17 @@ function App() {
      <Sumof />
      <Counter />
      < Effect />
+     <Statewise />
+     <ComaA/>
+     <BrowserRouter>
+     <Routes>
+     <Route  exact path="/" component={About}/>
+     <Route path="/contact" component={Contact}/>
+     <Route path="/contact/name" component={Name}/>
+     <Route  component={Error}/>
+     </Routes>
+     </BrowserRouter>
+     
      <Fetch />
    
     

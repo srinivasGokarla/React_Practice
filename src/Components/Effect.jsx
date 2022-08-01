@@ -15,7 +15,7 @@ export default function Effect() {
     }
     useEffect(() => {
         document.title = `chats:${count}`
-        alert(`${count}`)
+      //  alert(`${count}`)
     })
 
   return (
