@@ -22,10 +22,11 @@ import NpmClock from "./Components/NpmClock";
 import Acoordiaan from './Components/ReactQuestions/Acoordiaan';
 import Statewise from "./Components/Covid/Statewise"
 import ComaA from './Components/Axios/ComaA';
-import { Routes, Route,BrowserRouter} from "react-router-dom";
+import { Routes, Route, BrowserRouter} from "react-router-dom";
 import About from "./Components/Router/About";
 import Contact from "./Components/Router/Contact";
 import Error from "./Components/Router/Error"
+import Todo from "./Components/ToDo/Todo";
 
 
 
@@ -62,16 +63,17 @@ function App() {
      < Effect />
      <Statewise />
      <ComaA/>
+     <Todo />
+     <Fetch />
      <BrowserRouter>
      <Routes>
-     <Route  exact path="/" component={About}/>
-     <Route path="/contact" component={Contact}/>
-     <Route path="/contact/name" component={Name}/>
-     <Route  component={Error}/>
+     <Route  exact path="/" component={<About/>}/>
+     <Route path="/contact" component={<Contact/>}/>
+     <Route path="/contact/name" component={<Name/>}/>
+     <Route   path ="*" component={<Error/>}/>
      </Routes>
      </BrowserRouter>
-     
-     <Fetch />
+    
    
     
      

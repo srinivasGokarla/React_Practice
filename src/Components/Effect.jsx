@@ -20,7 +20,7 @@ export default function Effect() {
 
   return (
     <div>
-        <h2>Use Effect problem</h2>
+        <h2>Use Effect problem {count}</h2>
        <button onClick={Increment}>+</button>
        <button onClick={Decrement}>-</button>
     </div>
