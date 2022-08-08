@@ -65,7 +65,7 @@ function App() {
      <Statewise />
      <ComaA/>
      <Todo />
-     < Pract />
+     
      <Fetch />
      <BrowserRouter>
      <Routes>
