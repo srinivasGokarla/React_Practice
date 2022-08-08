@@ -27,6 +27,7 @@ import About from "./Components/Router/About";
 import Contact from "./Components/Router/Contact";
 import Error from "./Components/Router/Error"
 import Todo from "./Components/ToDo/Todo";
+import Pract from "./Components/Pract"
 
 
 
@@ -64,6 +65,7 @@ function App() {
      <Statewise />
      <ComaA/>
      <Todo />
+     < Pract />
      <Fetch />
      <BrowserRouter>
      <Routes>
