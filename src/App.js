@@ -27,7 +27,9 @@ import About from "./Components/Router/About";
 import Contact from "./Components/Router/Contact";
 import Error from "./Components/Router/Error"
 import Todo from "./Components/ToDo/Todo";
-import Pract from "./Components/Pract"
+import Pract from "./Components/Pract";
+import UseReducer from "./Components/UseReducer";
+import {Interview} from "./Components/Interview"
 
 
 
@@ -46,6 +48,7 @@ function App() {
      < Handler />
      <Input />
      <TwoInput />
+     < Interview />
      < SimpleForm />
      < ToDo />
      < NpmClock />
@@ -62,6 +65,7 @@ function App() {
      <Sumof />
      <Counter />
      < Effect />
+    < UseReducer />
      <Statewise />
      <ComaA/>
      <Todo />

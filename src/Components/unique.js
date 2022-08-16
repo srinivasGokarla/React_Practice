@@ -6,4 +6,6 @@ console.log(unique)
 
 let ar = new Set(['1', "2", "3", "1", "2", "1","1"])
 console.log(ar)
+let check = new Set(arr)
+console.log(check)
 
