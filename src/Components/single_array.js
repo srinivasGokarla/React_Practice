@@ -11,3 +11,8 @@ let flatArray1 = arr.reduce((acc, curVal) => {
 }, []);
 
 console.log(flat,flatArray, flatArray1)
+
+
+
+
+
