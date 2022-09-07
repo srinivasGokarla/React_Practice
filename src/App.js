@@ -29,7 +29,8 @@ import Error from "./Components/Router/Error"
 import Todo from "./Components/ToDo/Todo";
 import Pract from "./Components/Pract";
 import UseReducer from "./Components/UseReducer";
-import {Interview} from "./Components/Interview"
+import {Interview} from "./Components/Interview";
+import UseRef from './Components/UesRef'
 
 
 
@@ -44,6 +45,7 @@ function App() {
      <Simple />
 <hr />
      <Time />
+     < UseRef />
      < DigitalTime />
      < Handler />
      <Input />

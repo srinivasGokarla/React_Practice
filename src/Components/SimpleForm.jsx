@@ -49,7 +49,7 @@ const InputChange = (e) => {
     //    }
    })
 }
-    const OnSubmit = (e) => {
+const OnSubmit = (e) => {
 e.preventDefault()
 alert("Form Submited Successfully")
     }
