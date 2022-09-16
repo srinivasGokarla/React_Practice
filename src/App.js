@@ -45,7 +45,7 @@ function App() {
      <Simple />
 <hr />
      <Time />
-     < UseRef />
+    {/* < UseRef /> */}
      < DigitalTime />
      < Handler />
      <Input />
