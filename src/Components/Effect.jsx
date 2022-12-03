@@ -13,10 +13,10 @@ export default function Effect() {
         }
         
     }
-    // useEffect(() => {
-    //     document.title = `chats:${count}`
-    //   //  alert(`${count}`)
-    // })
+    useEffect(() => {
+        document.title = `chats:${count}`
+      //  alert(`${count}`)
+    })
 
   return (
     <div>

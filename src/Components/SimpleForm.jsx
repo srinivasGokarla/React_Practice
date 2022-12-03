@@ -7,6 +7,7 @@ export default function SimpleForm() {
        email: "",
        phone: ""
     })
+    const [display, setDisplay] = useState(false);
 const InputChange = (e) => {
 //    const name = e.target.name;
 //    const value = e.target.value;
@@ -51,6 +52,8 @@ const InputChange = (e) => {
 }
 const OnSubmit = (e) => {
 e.preventDefault()
+setDisplay(true);
+
 alert("Form Submited Successfully")
     }
   return (
@@ -93,6 +96,16 @@ alert("Form Submited Successfully")
         <br/>
         <br/>
         <button type="submit">Submit</button>
+        {display && (
+        <>
+          <h4>Request Sent to DB with below request data</h4>
+          <ul>
+            <li>UserName: {fullname.fname.toUpperCase()}</li>
+            <li>FullName: {fullname.lname.toUpperCase()}</li>
+            <li>Age: {fullname.phone}</li>
+          </ul>
+        </>
+      )}
        </form>
     </div>
   )
