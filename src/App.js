@@ -31,6 +31,7 @@ import Pract from "./Components/Pract";
 import UseReducer from "./Components/UseReducer";
 import {Interview} from "./Components/Interview";
 import UseRef from './Components/UesRef'
+import Usecontext from './Components/Usecontext'
 
 
 
@@ -46,6 +47,7 @@ function App() {
 <hr />
      <Time />
     {/* < UseRef /> */}
+    < Usecontext />
      < DigitalTime />
      < Handler />
      <Input />
