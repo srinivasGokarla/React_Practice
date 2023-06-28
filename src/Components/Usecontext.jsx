@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import "./styles.css";
+
 
 const themes = {
   light: {

@@ -32,6 +32,8 @@ import UseReducer from "./Components/UseReducer";
 import {Interview} from "./Components/Interview";
 import UseRef from './Components/UesRef'
 import Usecontext from './Components/Usecontext'
+import Test from "./Components/Test";
+import Form from './Components/Form';
 
 
 
@@ -43,25 +45,28 @@ function App() {
   }
   return (
     <div className="App">
-     <Simple />
+      {/* <Test /> */}
+      <Simple />
+      <Form />
+      < SimpleForm />
+     < ToDo />
 <hr />
-     <Time />
-    {/* < UseRef /> */}
+     {/* <Time />
+     < UseRef />
     < Usecontext />
      < DigitalTime />
      < Handler />
      <Input />
      <TwoInput />
      < Interview />
-     < SimpleForm />
-     < ToDo />
+    
      < NpmClock />
      < Acoordiaan />
      
      <Users />
-     < Toggle />
-     <Bindding />
-     < Disable />
+     < Toggle /> */}
+     {/* <Bindding /> */}
+     {/* < Disable />
      < Parentstate />
      <Parent >
       <Child />
@@ -72,17 +77,18 @@ function App() {
     < UseReducer />
      <Statewise />
      <ComaA/>
-     <Todo />
+     <Todo /> */}
      
-     <Fetch />
-     <BrowserRouter>
+     {/* <Fetch /> */}
+     {/* <BrowserRouter>
      <Routes>
      <Route  exact path="/" component={<About/>}/>
      <Route path="/contact" component={<Contact/>}/>
      <Route path="/contact/name" component={<Name/>}/>
      <Route   path ="*" component={<Error/>}/>
      </Routes>
-     </BrowserRouter>
+     </BrowserRouter>  */}
+
     
    
     
