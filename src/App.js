@@ -34,6 +34,8 @@ import UseRef from './Components/UesRef'
 import Usecontext from './Components/Usecontext'
 import Test from "./Components/Test";
 import Form from './Components/Form';
+import { Timer } from '@material-ui/icons';
+import VideoSection from "./Components/Videos"
 
 
 
@@ -45,15 +47,19 @@ function App() {
   }
   return (
     <div className="App">
+      <VideoSection />
       {/* <Test /> */}
+      {/* <Timer />
       <Simple />
       <Form />
       < SimpleForm />
      < ToDo />
+     < Usecontext />
+     < UseReducer /> */}
 <hr />
      {/* <Time />
      < UseRef />
-    < Usecontext />
+    
      < DigitalTime />
      < Handler />
      <Input />
@@ -74,7 +80,7 @@ function App() {
      <Sumof />
      <Counter />
      < Effect />
-    < UseReducer />
+    
      <Statewise />
      <ComaA/>
      <Todo /> */}
