@@ -47,7 +47,8 @@ function App() {
   }
   return (
     <div className="App">
-      <VideoSection />
+      <h1>All Pages</h1>
+      {/* <VideoSection /> */}
       {/* <Test /> */}
       {/* <Timer />
       <Simple />
@@ -85,7 +86,7 @@ function App() {
      <ComaA/>
      <Todo /> */}
      
-     {/* <Fetch /> */}
+     <Fetch />
      {/* <BrowserRouter>
      <Routes>
      <Route  exact path="/" component={<About/>}/>
